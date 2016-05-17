@@ -1,4 +1,3 @@
-
 // This file is auto-generated
 // Any change will be overriden
 const ignoreTarget = Meteor.isServer ? 'client' : 'server';

@@ -1,6 +1,4 @@
 Vue = require('vue')
-# Vue.config.debug = true
-Vue.use(require('vue-meteor'))
 VueRouter = require('vue-router')
 Vue.use(VueRouter)
 
