@@ -2,8 +2,8 @@ chai = require('meteor/practicalmeteor:chai')
 
 describe "Obvious tests", ->
 
-	describe "passing test", ->
+	it "this test should pass", ->
 		chai.assert.isTrue(true)
 
-	describe "failing test", ->
+	it "this test should fail", ->
 		chai.assert.isTrue(false)

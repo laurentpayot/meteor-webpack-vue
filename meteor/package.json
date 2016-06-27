@@ -6,7 +6,10 @@
   "version": "1.0.0",
   "main": "src/server.coffee",
   "browser": "src/client.coffee",
-  "dependencies": {},
+  "dependencies": {
+    "vue": "^1.0.17",
+    "vue-router": "^0.7.11"
+  },
   "devDependencies": {
     "babel": "^6.3.26",
     "babel-core": "^6.3.26",
@@ -25,13 +28,12 @@
     "json-loader": "^0.5.4",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
-    "vue": "^1.0.17",
     "vue-hot-reload-api": "^1.3.2",
     "vue-html-loader": "^1.2.0",
     "vue-loader": "^8.2.0",
-    "vue-router": "^0.7.11",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.0",
-    "webpack-hot-middleware": "^2.4.1"
+    "webpack-hot-middleware": "^2.4.1",
+    "vue": "^1.0.17"
   }
 }
