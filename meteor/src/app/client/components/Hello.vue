@@ -1,6 +1,5 @@
 <script lang="coffee">
 module.exports =
-	# components: {TodoHeader, TodoList}
 	data: ->
 		msg: "Hello world!"
 </script>
