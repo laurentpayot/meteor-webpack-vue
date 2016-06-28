@@ -1,14 +1,15 @@
 {
-  "name": "meteor-webpack-vue-tests",
-  "description": "meteor-webpack debug repo for https://github.com/thereactivestack/meteor-webpack/issues/162",
+  "name": "meteor-webpack-vue",
+  "description": "meteor-webpack + Vue single components + vue-router",
   "author": "Laurent Payot",
   "private": "true",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/server.coffee",
   "browser": "src/client.coffee",
   "dependencies": {
-    "vue": "^1.0.17",
-    "vue-router": "^0.7.11"
+    "vue": "^1.0.25",
+    "vue-meteor": "https://github.com/laurentpayot/vue-meteor/tarball/ES5",
+    "vue-router": "^0.7.13"
   },
   "devDependencies": {
     "babel": "^6.3.26",
