@@ -11,7 +11,7 @@ Layout = require('./components/Layout.vue')
 Hello = require('./components/Hello.vue')
 
 router.map(
-	'/': { name: "home", component: Hello }
+	'/': { name: "homee", component: Hello }
 )
 
 module.exports =
