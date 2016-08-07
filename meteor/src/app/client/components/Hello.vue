@@ -1,4 +1,4 @@
-<script lang="coffee">
+<script lang="livescript">
 module.exports =
 	data: ->
 		msg: "Hello world!"

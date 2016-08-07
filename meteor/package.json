@@ -4,8 +4,8 @@
   "author": "Laurent Payot",
   "private": "true",
   "version": "1.0.1",
-  "main": "src/server.coffee",
-  "browser": "src/client.coffee",
+  "main": "src/server.ls",
+  "browser": "src/client.ls",
   "dependencies": {
     "vue": "^1.0.25",
     "vue-meteor": "https://github.com/laurentpayot/vue-meteor/tarball/ES5",
@@ -19,22 +19,22 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
     "babel-runtime": "^6.6.1",
-    "coffee-loader": "^0.7.2",
-    "coffee-script": "^1.10.0",
     "css-loader": "^0.23.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "json-loader": "^0.5.4",
+    "livescript-loader": "^0.1.5",
     "style-loader": "^0.13.0",
     "url-loader": "^0.5.7",
+    "vue": "^1.0.17",
     "vue-hot-reload-api": "^1.3.2",
     "vue-html-loader": "^1.2.0",
     "vue-loader": "^8.2.0",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.0",
     "webpack-hot-middleware": "^2.4.1",
-    "vue": "^1.0.17"
+    "livescript": "^1.4.0"
   }
 }

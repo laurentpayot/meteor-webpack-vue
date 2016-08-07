@@ -1,4 +1,4 @@
-<script lang="coffee">
+<script lang="livescript">
 module.exports =
 	# to avoid replacing body
 	replace: false
@@ -8,7 +8,7 @@ module.exports =
 <template lang="jade">
 div
 	h3 This is the layout.
-	//-   matched component renders below
+	//- matched component renders below
 	router-view(transition="fade" transition-mode="out-in")
 </template>
 
