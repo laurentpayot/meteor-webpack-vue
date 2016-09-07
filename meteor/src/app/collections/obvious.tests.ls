@@ -1,9 +1,10 @@
-chai = require('meteor/practicalmeteor:chai')
+require! chai
+It = it # livescript workaround
 
-describe "Obvious tests", ->
+describe "Obvious Tests" !->
 
-	it "this test should pass", ->
-		chai.assert.isTrue(true)
+	It "this test should pass" !->
+		chai.assert.is-true true
 
-	it "this test should fail", ->
-		chai.assert.isTrue(false)
+	It "this test should fail" !->
+		chai.assert.is-true false

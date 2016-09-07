@@ -1,18 +1,23 @@
-Vue = require('vue')
-VueRouter = require('vue-router')
-Vue.use(VueRouter)
+require! {
+	'vue': Vue
+	'vue-router': Vue-router
+}
 
-router = new VueRouter(
+Vue.use(Vue-router)
+
+router = new Vue-router do
 	mode: 'html5'
 	hashbang: false
-)
 
-Layout = require('./components/Layout.vue')
-Hello = require('./components/Hello.vue')
 
-router.map(
-	'/': { name: "homee", component: Hello }
-)
+require! {
+	'./components/Layout.vue'
+	'./components/Hello.vue'
+}
 
-module.exports =
+router.map do
+	'/': {name: "home", component: Hello}
+
+
+export
 	{router, Layout}

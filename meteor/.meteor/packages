@@ -6,16 +6,17 @@
 
 meteor-base@1.0.4             # Packages every Meteor app needs to have
 mobile-experience@1.0.4       # Packages for a great mobile UX
-mongo@1.1.10                   # The database Meteor supports right now
+mongo@1.1.12                   # The database Meteor supports right now
 
-es5-shim@4.6.13                # ECMAScript 5 compatibility for older browsers.
+es5-shim@4.6.14                # ECMAScript 5 compatibility for older browsers.
 
 
 
-standard-minifier-css@1.1.8
-standard-minifier-js@1.1.8
+standard-minifier-css@1.2.0
+standard-minifier-js@1.2.0
 webpack:vue
 webpack:jade
 webpack:webpack
 practicalmeteor:mocha
 webpack:livescript
+shell-server

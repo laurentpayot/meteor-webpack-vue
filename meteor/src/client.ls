@@ -1,7 +1,9 @@
-require('app/client')
-{router, Layout} = require('app/client/routes')
+require 'app/client'
 
-Meteor.startup(->
+require! {
+	'app/client/routes': {router, Layout}
+}
+
+Meteor.startup ->
 	document.title = "meteor-webpack Vue tests debug"
-	router.start(Layout, document.body)
-)
+	router.start Layout, document.body
