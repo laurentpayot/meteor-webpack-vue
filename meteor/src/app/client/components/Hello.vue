@@ -1,5 +1,5 @@
 <script lang="livescript">
-module.exports =
+export
 	data: ->
 		msg: "Hello world!"
 </script>

@@ -1,5 +1,5 @@
 <script lang="livescript">
-module.exports =
+export
 	# to avoid replacing body
 	replace: false
 </script>
