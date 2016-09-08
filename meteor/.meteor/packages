@@ -20,3 +20,5 @@ webpack:webpack
 practicalmeteor:mocha
 webpack:livescript
 shell-server
+akryum:vue-apollo
+apollo
