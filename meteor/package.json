@@ -7,7 +7,7 @@
   "main": "src/server.ls",
   "browser": "src/client.ls",
   "dependencies": {
-    "apollo-client": "^0.4.14",
+    "apollo-client": "^0.3.30",
     "apollo-server": "^0.1.5",
     "express": "^4.14.0",
     "graphql": "^0.6.2",
