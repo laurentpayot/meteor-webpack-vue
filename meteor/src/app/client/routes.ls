@@ -1,5 +1,4 @@
 require! {
-	# 'meteor/akryum:vue': Vue
 	'vue': Vue
 	'vue-router': Vue-router
 }

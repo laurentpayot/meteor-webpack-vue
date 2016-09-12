@@ -7,7 +7,7 @@ require! {
 
 Vue-apollo.set-meteor-client-config do
 	path: '/graphql'
-	# options: {}
+	options: {}
 	use-meteor-accounts: true
 
 
