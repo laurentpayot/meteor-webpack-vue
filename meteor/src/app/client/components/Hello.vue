@@ -1,5 +1,5 @@
 <script lang="livescript">
-require! 'app/client/gql.js': {Gql}
+require! '../gql.js': {Gql}
 export
 	data: ->
 		hello: "Hi."
@@ -8,12 +8,13 @@ export
 		# Non-reactive query
 		data:
 			# Simple query that will update the 'hello' vue property
-			hello:
-				query: Gql '{hello}'
+			hello: Gql '''{hello}'''
 			#  Query with parameters
 			ping:
 				#  gql query
-				query: Gql 'query PingMessage($message: String!) { ping(message: $message) }'
+				query: Gql '''query PingMessage($message: String!) {
+					ping(message: $message)
+				}'''
 				# Static parameters
 				variables:
 					message: "Meow"
