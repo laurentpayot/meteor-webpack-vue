@@ -1,5 +1,5 @@
 require! {
-	'vue': Vue
+	'app/client/vue': {Vue}
 	'vue-router': Vue-router
 }
 

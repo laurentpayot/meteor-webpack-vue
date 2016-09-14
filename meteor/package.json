@@ -14,10 +14,12 @@
     "graphql-tools": "^0.6.6",
     "graphql-typings": "0.0.1-beta-2",
     "vue": "^1.0.25",
+    "vue-mdl": "^0.9.4",
     "vue-meteor": "https://github.com/laurentpayot/vue-meteor/tarball/ES5",
     "vue-router": "^0.7.13"
   },
   "devDependencies": {
+    "apollo-client": "^0.4.4",
     "babel": "^6.3.26",
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",
@@ -29,6 +31,8 @@
     "css-loader": "^0.23.0",
     "extract-text-webpack-plugin": "^0.9.1",
     "file-loader": "^0.8.5",
+    "graphql": "^0.6.1",
+    "graphql-tag": "^0.1.9",
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "json-loader": "^0.5.4",
@@ -42,9 +46,6 @@
     "vue-loader": "^8.2.0",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.13.0",
-    "webpack-hot-middleware": "^2.4.1",
-    "apollo-client": "^0.4.4",
-    "graphql": "^0.6.1",
-    "graphql-tag": "^0.1.9"
+    "webpack-hot-middleware": "^2.4.1"
   }
 }

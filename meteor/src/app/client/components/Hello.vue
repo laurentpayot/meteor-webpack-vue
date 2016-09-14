@@ -1,5 +1,8 @@
 <script lang="livescript">
-require! '../gql.js': {Gql}
+require! {
+	'../gql.js': {Gql}
+	'vue-mdl': {Mdl-button, Mdl-ripple-effect}
+}
 export
 	data: ->
 		hello: "Hi."
@@ -11,15 +14,14 @@ export
 			hello: Gql '''{hello}'''
 			#  Query with parameters
 			ping:
-				#  gql query
 				query: Gql '''query PingMessage($message: String!) {
 					ping(message: $message)
 				}'''
-				# Static parameters
 				variables:
 					message: "Meow"
-				#  Additional options here
 				forceFetch: true
+	components:	{Mdl-button}
+	directives:	{Mdl-ripple-effect}
 </script>
 
 
@@ -27,4 +29,6 @@ export
 .apollo
 	h1 {{hello}}
 	h3 Ping = {{ping}}
+	mdl-button(v-mdl-ripple-effect raised primary)
+		| Click Me
 </template>
