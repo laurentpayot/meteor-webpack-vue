@@ -9,8 +9,7 @@ export
 div
 	h3 This is the layout.
 	//- matched component renders below
-	//- router-view(transition="fade" transition-mode="out-in")
-	router-view
+	router-view(transition="fade" transition-mode="out-in")
 </template>
 
 
